@@ -1,0 +1,85 @@
+.imagen__cardname {
+    height: 80vh;
+    background-image: url("../../img/UX-image.jpg");
+    background-repeat: no-repeat;
+}
+
+.cardname {
+    display: flex;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    flex: 1;
+
+    &__text {
+        display: flex;
+        background-position: center;
+        color: $color_principal;
+        background-color: $color_secundario;
+        border: .2rem solid $color_terciario;
+        border-radius: 8px;
+    
+        padding-inline: 1rem;
+        padding-block: 1rem;
+    
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.sobremi {
+    display: flex;
+    text-align: left;
+    background-position: left;
+    font-size: 1rem;
+    padding-left: 2rem;
+    flex: 1;
+
+    &__coder {
+        background-color: $backgroundcolor_black;
+        color: $textcolor_link;
+        font-style: italic;
+        padding-inline: 0.5rem;
+    }
+
+    &__paragraph {
+        font-size: 1rem;
+        text-align: justify;
+        color: $textcolor_link;
+        background-color: $backgroundcolor_transp;
+        padding-inline: 1rem;
+        padding-block: 0.5rem;
+    
+        border-radius: 16px;
+    
+        width: 400px;
+        height: 150px;
+    }
+}
+
+.cards {
+    padding: 2rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    .card {
+        background-color: $color_principal;
+        padding: 2rem;
+
+        transition: 1s;
+
+        &__title {
+            color: $textcolor_link;
+        }
+
+        &__paragraph {
+            color: $textcolor_link;
+        }
+
+        &:hover {
+            background-color: $color_terciario;
+        }
+    }
+}
+

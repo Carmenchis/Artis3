@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic Neue", cursive;
+  text-decoration: none;
+}
+
+/*.header__navbar {
+    text-decoration: none;
+}*/
+/*img {
+    width: 100%;
+}*/
+/*CSS INDEX*/
+.body_index {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*background-color: $color_principal;*/
+  background: rgb(0, 0, 0);
+  background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(112, 1, 62) 73%);
+}
+
+.header {
+  background-color: #239B84;
+  padding: 0rem;
+  position: sticky;
+  top: 0;
+}
+.header__navbar {
+  display: flex;
+  align-items: center;
+}
+.header .navbar {
+  display: flex;
+  list-style-type: none;
+  gap: 0.5rem;
+  flex: 1;
+  justify-content: end;
+  margin-right: 1rem;
+}
+.header .navbar__item a {
+  color: white;
+}
+.header .navbar__item {
+  padding: 1rem;
+  gap: 1rem;
+  transition: 1s;
+}
+.header .navbar__item:hover {
+  transform: translateY(-2px);
+  background-color: #FFB517;
+}
+
+.frase {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.frase_title {
+  font-size: 5rem;
+  color: #70013E;
+  text-align: center;
+  transition: 1s;
+}
+.frase_title:hover {
+  color: #250015;
+}
+.frase_title2 {
+  font-size: 1rem;
+  color: #70013E;
+  text-align: center;
+}
+
+.espacio {
+  min-height: 50vh;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.imagen__cardname {
+  height: 80vh;
+  background-image: url("../../img/UX-image.jpg");
+  background-repeat: no-repeat;
+}
+
+.cardname {
+  display: flex;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  flex: 1;
+}
+.cardname__text {
+  display: flex;
+  background-position: center;
+  color: #70013E;
+  background-color: #FFB517;
+  border: 0.2rem solid #239B84;
+  border-radius: 8px;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 0.5rem;
+}
+
+.sobremi {
+  display: flex;
+  text-align: left;
+  background-position: left;
+  font-size: 1rem;
+  padding-left: 2rem;
+  flex: 1;
+}
+.sobremi__coder {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding-inline: 0.5rem;
+}
+.sobremi__paragraph {
+  font-size: 1rem;
+  text-align: justify;
+  color: white;
+  background-color: rgba(59, 59, 59, 0.4941176471);
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 16px;
+  width: 400px;
+  height: 150px;
+}
+
+.cards {
+  padding: 2rem;
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.cards .card {
+  background-color: #70013E;
+  padding: 2rem;
+  transition: 1s;
+}
+.cards .card__title {
+  color: white;
+}
+.cards .card__paragraph {
+  color: white;
+}
+.cards .card:hover {
+  background-color: #239B84;
+}
+
+footer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: end;*/
+}
+
+.footer {
+  display: flex;
+  padding: 3rem;
+  background-color: #FFB517;
+  color: #70013E;
+  flex: 1;
+  gap: 1rem;
+  justify-content: space-around;
+}
+.footer__paragraph {
+  text-align: center;
+}
+
+.redes {
+  color: #70013E;
+}/*# sourceMappingURL=estilos.css.map */

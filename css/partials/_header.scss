@@ -1,0 +1,83 @@
+/*CSS INDEX*/
+
+.body_index {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*background-color: $color_principal;*/
+
+    background: rgb(0,0,0);
+    background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(112,1,62,1) 73%);
+
+}
+
+.header {
+    background-color: $color_terciario;
+    padding: 0rem;
+    position: sticky;
+    top: 0;
+    
+    &__navbar{
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar {
+        display: flex;
+        list-style-type: none;
+        gap: 0.5rem;
+        flex: 1;
+        justify-content: end;
+        margin-right: 1rem;
+
+        &__item a {
+            color: $textcolor_link;
+        }
+
+        &__item {
+            padding: 1rem;
+            gap: 1rem;
+
+            transition: 1s;
+        }  
+
+        &__item:hover {
+            transform: translateY(-2px);
+            background-color: $color_secundario
+        }
+        
+    }
+}
+
+.frase {
+    background-color: $backgroundcolor_select;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    &_title {
+        font-size: 5rem;
+        color: $color_principal;
+        text-align: center;
+
+        transition: 1s;
+    }
+
+    &_title:hover {
+        color: #250015;
+    }
+
+    &_title2 {
+        font-size: 1rem;
+        color: $color_principal;
+        text-align: center;
+    }
+}
+
+.espacio {
+    min-height: 50vh;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
