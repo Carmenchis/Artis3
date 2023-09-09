@@ -61,7 +61,7 @@
   justify-content: center;
 }
 .frase_title {
-  font-size: 5rem;
+  font-size: 2rem;
   color: #70013E;
   text-align: center;
   transition: 1s;
@@ -76,7 +76,7 @@
 }
 
 .espacio {
-  min-height: 50vh;
+  min-height: 10vh;
   display: flex;
   padding: 1rem;
   gap: 1rem;
@@ -99,8 +99,6 @@
   background-position: center;
   color: #70013E;
   background-color: #FFB517;
-  border: 0.2rem solid #239B84;
-  border-radius: 8px;
   padding-inline: 1rem;
   padding-block: 1rem;
   width: -moz-fit-content;
@@ -131,7 +129,6 @@
   background-color: rgba(59, 59, 59, 0.4941176471);
   padding-inline: 1rem;
   padding-block: 0.5rem;
-  border-radius: 16px;
   width: 400px;
   height: 150px;
 }
@@ -139,7 +136,7 @@
 .cards {
   padding: 2rem;
   gap: 2rem;
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .cards .card {
@@ -157,6 +154,13 @@
   background-color: #239B84;
 }
 
+/*@media screen and (max-width: 480px) {
+    @content;
+
+
+
+}
+*/
 footer {
   flex-grow: 1;
   display: flex;
@@ -179,4 +183,44 @@ footer {
 
 .redes {
   color: #70013E;
+}
+
+/*@mixin tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+        @content;
+
+        .cards {
+            padding: 2rem;
+            flex-direction: column;
+            gap: 2rem;          
+
+        }
+
+    }
+}*/
+@media (max-width: 480px) {
+  .header,
+  .nav-bar,
+  .footer {
+    width: 100%;
+  }
+  .header .titulo {
+    font-size: 25px;
+  }
+  .header .sub-titulo {
+    font-size: 22px;
+    margin: 0;
+  }
+  .nav-bar .menu-item {
+    font-size: 12px;
+  }
+  .footer .footer-titulo {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=estilos.css.map */

@@ -57,7 +57,7 @@
 
 
     &_title {
-        font-size: 5rem;
+        font-size: 2rem;
         color: $color_principal;
         text-align: center;
 
@@ -76,8 +76,12 @@
 }
 
 .espacio {
-    min-height: 50vh;
+    min-height: 10vh;
     display: flex;
     padding: 1rem;
     gap: 1rem;
 }
+
+/*Servicios*/
+
+

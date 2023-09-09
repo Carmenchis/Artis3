@@ -15,8 +15,6 @@
         background-position: center;
         color: $color_principal;
         background-color: $color_secundario;
-        border: .2rem solid $color_terciario;
-        border-radius: 8px;
     
         padding-inline: 1rem;
         padding-block: 1rem;
@@ -50,7 +48,6 @@
         padding-inline: 1rem;
         padding-block: 0.5rem;
     
-        border-radius: 16px;
     
         width: 400px;
         height: 150px;
@@ -60,7 +57,7 @@
 .cards {
     padding: 2rem;
     gap: 2rem;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     
     .card {
@@ -82,4 +79,5 @@
         }
     }
 }
+
 
