@@ -1,14 +1,22 @@
 /*CSS INDEX*/
 
 .body_index {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     min-height: 100vh;
+
     display: flex;
     flex-direction: column;
     /*background-color: $color_principal;*/
 
     background: rgb(0,0,0);
-    background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(112,1,62,1) 73%);
+    background-color: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(112,1,62,1) 73%);
 
+
+    transition:
+        background-color .3s,
+        color .3s;
 }
 
 .header {
