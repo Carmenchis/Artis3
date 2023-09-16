@@ -283,10 +283,51 @@ footer {
   color: #70013E;
 }
 
+@media screen and (min-width: 1200px) {
+  .main_grid {
+    flex-direction: row;
+    grid-template-columns: repeat(1fr, 1fr);
+    align-items: center;
+    justify-content: center;
+    /*        grid-template-rows: 1fr, 1fr, 1fr;*/
+  }
+  .grid_item i {
+    font-size: 3rem;
+  }
+  .mapa400 {
+    display: none;
+  }
+  .mapa1200 {
+    display: block;
+  }
+}
+/*@media screen and (max-width: 1200px) {
+
+    .mapa400 {
+        display: none;
+    }
+
+    .mapa1200 {
+        display: block;
+    }
+
+}*/
 /*@media screen and (max-width: 768px) {
 
-    }*/
-@media screen and (max-width: 480px) {
+        .mapa1200 {
+            display: none;
+        }
+
+        .mapa800 {
+            display: flex;
+        }
+
+        .mapa400 {
+            display: none;
+        }
+
+    } */
+@media screen and (max-width: 780px) {
   .card {
     display: block;
     padding: 2rem;
@@ -300,16 +341,11 @@ footer {
     display: flex;
     align-items: center;
   }
-}
-@media screen and (min-width: 1200px) {
-  .main_grid {
-    flex-direction: row;
-    grid-template-columns: repeat(1fr, 1fr);
-    align-items: center;
-    justify-content: center;
-    /*        grid-template-rows: 1fr, 1fr, 1fr;*/
+  .mapa1200 {
+    display: none;
   }
-  .grid_item i {
-    font-size: 3rem;
+  /*.mapa800 {
+      display: none;
   }
+  */
 }/*# sourceMappingURL=estilos.css.map */
