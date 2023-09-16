@@ -62,6 +62,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 
     &_title {
@@ -76,11 +77,11 @@
         color: #250015;
     }
 
-    &_title2 {
+    /*&_title2 {
         font-size: 1rem;
         color: $color_principal;
         text-align: center;
-    }
+    }*/
 }
 
 .espacio {
@@ -92,4 +93,113 @@
 
 /*Servicios*/
 
+.main_servicio {
+    padding: 0;
+}
 
+.title_index {
+    display: flex;
+    justify-content: left;
+    padding: 5rem;
+    background-color: white;
+    flex-direction: column;
+}
+
+.text_index {
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.main_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.grid_item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    box-shadow: $box-shadow;
+    border-radius: .35rem;
+    padding: .75rem 1rem;
+    transition:
+        background-color .2s,
+        transform .2s,
+        box-shadown .2s
+        color .2s;
+}
+
+
+.grid_item p {
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.grid_item:hover {
+    background-color: $color_principal;
+    color: $textcolor_hover;
+    transform: scale(1.05);
+    box-shadow: $box-shadow-expand;
+}
+
+
+/*CLIENTES*/
+
+
+/*PROMOS*/
+
+
+
+/*CHARLEMOS*/
+
+.imagen_fondo2 {
+    word-spacing: normal;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+
+    background-color: #272932;
+    background-image: url("../img/UX-image3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.formu {
+    display: flex;
+    flex-direction: column;
+    background-color: #272932a9;
+    height: 60%;
+    padding: 20px;
+
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FCB11A;
+    text-align: center;
+}
+
+.formul {
+    display: flex;
+    flex-direction: column;
+    background-color: #272932a9;
+    height: 40%;
+    padding: 20px;
+    align-items: center;
+   
+    /*font-size: 2rem;*/
+    font-weight: bold;
+    color: #FCB11A;
+    text-align: center;
+}

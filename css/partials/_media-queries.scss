@@ -1,15 +1,40 @@
-@media screen and (max-width: 768px) {
-        @content;
-    }
+/*@media screen and (max-width: 768px) {
+
+    }*/
 
 @media screen and (max-width: 480px) {
-        @content;
 
-        .cards {
+        .card {
+            display: block;
             padding: 2rem;
             flex-direction: column;
             gap: 2rem;          
         
         }
 
+        .sobremi {
+            flex-direction: column;
+        }
+
+        .espacio {
+            display: flex;
+            align-items: center;
+        }
+
     }
+
+@media screen and (min-width: 1200px) {
+
+    .main_grid {
+        flex-direction: row;
+        grid-template-columns: repeat(1fr, 1fr);
+        align-items: center;
+        justify-content: center;
+/*        grid-template-rows: 1fr, 1fr, 1fr;*/
+    }
+
+    .grid_item i {
+        font-size: 3rem;
+    }
+
+}
