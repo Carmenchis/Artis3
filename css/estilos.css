@@ -30,37 +30,43 @@ a {
   transition: background-color 0.3s, color 0.3s;
 }
 
-.header {
-  background-color: #239B84;
-  padding: 0rem;
-  position: sticky;
-  top: 0;
-}
-.header__navbar {
-  display: flex;
-  align-items: center;
-}
-.header .navbar {
-  display: flex;
-  list-style-type: none;
-  gap: 0.5rem;
-  flex: 1;
-  justify-content: end;
-  margin-right: 1rem;
-}
-.header .navbar__item a {
-  color: white;
-}
-.header .navbar__item {
-  padding: 1rem;
-  gap: 1rem;
-  transition: 1s;
-}
-.header .navbar__item:hover {
-  transform: translateY(-2px);
-  background-color: #FFB517;
-}
+/* .header {
+    background-color: $color_terciario;
+    padding: 0rem;
+    position: sticky;
+    top: 0;
 
+    &__navbar{
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar {
+        display: flex;
+        list-style-type: none;
+        gap: 0.5rem;
+        flex: 1;
+        justify-content: end;
+        margin-right: 1rem;
+
+        &__item a {
+            color: $textcolor_link;
+        }
+
+        &__item {
+            padding: 1rem;
+            gap: 1rem;
+
+            transition: 1s;
+        }  
+
+        &__item:hover {
+            transform: translateY(-2px);
+            background-color: $color_secundario
+        }
+
+    }
+} */
 .frase {
   background-color: white;
   display: flex;
@@ -259,6 +265,9 @@ a {
   background-color: #239B84;
 }
 
+/* .cardp {
+
+} */
 footer {
   flex-grow: 1;
   display: flex;
