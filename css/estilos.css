@@ -193,6 +193,19 @@ a {
   text-align: center;
 }
 
+.promos {
+  background-image: url("../../pag_artis/img/UX-image2.jpg");
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.row {
+  margin: 0;
+}
+
 .imagen__cardname {
   height: 80vh;
   background-image: url("../../img/UX-image.jpg");
@@ -265,9 +278,6 @@ a {
   background-color: #239B84;
 }
 
-/* .cardp {
-
-} */
 footer {
   flex-grow: 1;
   display: flex;
