@@ -80,6 +80,17 @@
     }
 }
 
+.btn-primary {
+    background: $color_principal;
+    border-color: $color_secundario;
+    color: $textcolor_link;
 
+    transition: 1s;
+}
 
-
+.btn-primary:hover {
+    transform: translateY(-2px);
+    background: $color_secundario;
+    color: $color_principal;
+    border-color: $color_principal;
+}

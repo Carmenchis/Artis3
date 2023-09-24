@@ -30,6 +30,27 @@ a {
   transition: background-color 0.3s, color 0.3s;
 }
 
+.nav-link {
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  transform: translateY(-2px);
+  /*background-color: $color_secundario;*/
+  border-radius: 0.5rem;
+}
+
+.active {
+  font-weight: bold;
+  /*text-decoration: underline;*/
+  border-bottom: 0.2rem solid #FFB517;
+}
+
+header {
+  padding: 0rem;
+  top: 0;
+}
+
 /* .header {
     background-color: $color_terciario;
     padding: 0rem;
@@ -157,7 +178,6 @@ a {
 /*CHARLEMOS*/
 .imagen_fondo2 {
   word-spacing: normal;
-  height: 800px;
   margin: 0;
   padding: 0;
   background-color: #272932;
@@ -204,6 +224,10 @@ a {
 
 .row {
   margin: 0;
+}
+
+.col {
+  color: #FFB517;
 }
 
 .imagen__cardname {
@@ -276,6 +300,20 @@ a {
 }
 .cards .card:hover {
   background-color: #239B84;
+}
+
+.btn-primary {
+  background: #70013E;
+  border-color: #FFB517;
+  color: white;
+  transition: 1s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  background: #FFB517;
+  color: #70013E;
+  border-color: #70013E;
 }
 
 footer {

@@ -19,6 +19,27 @@
         color .3s;
 }
 
+.nav-link {
+    transition: .5s;
+}
+
+.nav-link:hover {
+    transform: translateY(-2px);
+    /*background-color: $color_secundario;*/
+    border-radius: .5rem;
+}
+
+.active {
+    font-weight: bold;
+    /*text-decoration: underline;*/
+    border-bottom: .2rem solid $color_secundario;
+}
+
+header {
+    padding: 0rem;
+    top: 0;
+}
+
 /* .header {
     background-color: $color_terciario;
     padding: 0rem;
@@ -165,7 +186,6 @@
 
 .imagen_fondo2 {
     word-spacing: normal;
-    height: 800px;
     margin: 0;
     padding: 0;
 
@@ -216,4 +236,8 @@
 
 .row {
     margin: 0;
+}
+
+.col {
+    color: $color_secundario;
 }
